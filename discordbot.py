@@ -17,5 +17,9 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.('pong')
 
+@bot.command()
+async def rulu(ctx):
+    await ctx.('るうだよ')
 
+    
 bot.run(token)
