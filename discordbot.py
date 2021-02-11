@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def Hi(ctx):
+async def Hi!(ctx):
     await ctx.('Hi!')
 
 
