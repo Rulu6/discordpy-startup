@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def Hi(ctx):
-    await ctx.hi('pong')
+    await ctx.('Hi!')
 
 
 bot.run(token)
